@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* body takes up full viewport height */
+    min-height: 100vh; /* ensure body takes up full viewport height */
 }
 
 main {
@@ -18,4 +18,14 @@ article {
 aside {
     flex: 1; /* take up 1/3 of the width */
     overflow-y: auto; /* allow vertical scrolling */
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    article, aside {
+        flex: 1;
+    }
 }
