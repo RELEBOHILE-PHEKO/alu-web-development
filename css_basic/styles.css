@@ -1,7 +1,8 @@
+/* Original styles */
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* body takes up full viewport height */
+    min-height: 100vh; /* ensure body takes up full viewport height */
 }
 
 main {
@@ -18,4 +19,92 @@ article {
 aside {
     flex: 1; /* take up 1/3 of the width */
     overflow-y: auto; /* allow vertical scrolling */
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    article, aside {
+        flex: 1;
+    }
+}
+
+/* Custom styles for unique look */
+body {
+    background-color: #f4f4f4; /* Light gray background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Logo style */
+.logo {
+    font-size: 1.5rem;
+    margin-right: auto; /* Pushes other items to the right */
+}
+
+main {
+    padding: 1rem;
+}
+
+article {
+    background-color: #fff; /* White background for article */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    padding: 1rem;
+}
+
+aside {
+    background-color: #e9ecef; /* Light gray background for aside */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    padding: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto; /* Pushes footer to the bottom */
+}
+
+article h1, article h2, article h3 {
+    color: #333; /* Darker text for headings */
+}
+
+article p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+article img {
+    max-width: 100%;
+    border-radius: 8px; /* Rounded corners for images */
 }
