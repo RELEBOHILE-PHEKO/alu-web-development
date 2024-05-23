@@ -1,0 +1,1 @@
+Welcomed to css advanced where we will be styling a page
