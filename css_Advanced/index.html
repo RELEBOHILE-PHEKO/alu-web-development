@@ -1,63 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:C="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML ADVANCED</title>
-</head>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+    </style>
 <body>
 <!-- Header Section -->
 <header>
+    <table style="width: 100%;">
+        <tr>
+            <td>
     <a href="#">
-        <img src="logo.png" alt="Logo">
+        <img src="https://github.com/RELEBOHILE-PHEKO/alu-web-development/blob/master/css_Advanced/Screenshot%202024-05-25%20203825.png?raw=true"alt="Logo">
     </a>
     <div>
-        <a href="#">COURSES</a>
-        <a href="#">PRICING</a>
-        <a href="#">LOGIN</a>
+        <td style="text-align: right;">
+        <a href="#">COURSES</a>&nbsp;&nbsp;
+        <a href="#">PRICING</a>&nbsp;&nbsp;
+            <a href="#">LOGIN</a>
+        </td>t
     </div>
+        </tr>
+    </table>
 </header>
-
 <!-- Main Content -->
 <main>
     <!-- Banner Section -->
     <section>
-        <div>
-            <h1>GET SCHOOLED</h1>
+        <div align="center">
+            <h1>Get Schooled</h1>
             <p>SMILES GRIN LAUGH.</p>
-            <button>REGISTER FOR FREE</button>
+            <button class="register-button">REGISTER FOR FREE</button>
         </div>
-        <div>
-            <h2>Learn from the pros</h2>
-            <div>
-                <div>
-                    <img src="image1.png" alt="Image 1">
-                    <h3>Phillip Massey</h3>
-                    <p>Text 1</p>
-                </div>
-                <div>
-                    <img src="image2.png" alt="Image 2">
-                    <h3>Nannie lawrance</h3>
-                    <p>Text 2</p>
-                </div>
-                <div>
-                    <img src="image3.png" alt="Image 3">
-                    <h3>Bruce Walters</h3>
-                    <p>Text 3</p>
-                </div>
-                <div>
-                    <img src="image4.png" alt="Image 4">
-                    <h3>Henry Hughes</h3>
-                    <p>Text 4</p>
-                </div>
-            </div>
+        <div align="center">
+            <h2>
+                <span class="purple-text">Learn</span>
+                <span class="white-text">from the pros</span>
+            </h2>
+            <table>
+                <tr>
+                    <td>
+                        <div>
+                            <img src="https://github.com/RELEBOHILE-PHEKO/alu-web-development/blob/master/html_advanced/avatar%20(2).jpg?raw=true" alt="Image 1">
+                            <h3>Phillip Massey</h3>
+                            <p class="instructor-bio">
+                                « Smile of the year »;
+                                <br />
+                                2018-2019
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <img src="https://github.com/RELEBOHILE-PHEKO/alu-web-development/blob/master/html_advanced/avatar%20(3).jpg?raw=true" alt="Image 2">
+                            <h3>Nannie Lawrance</h3>
+                            <h3>Nannie Lawrence</h3>
+                            <p class="instructor-bio">
+                                Best « Little smile »
+                                <br />
+                                2017</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <img src="https://github.com/RELEBOHILE-PHEKO/alu-web-development/blob/master/html_advanced/7.jpg?raw=true" alt="Image 3">
+                            <h3>Bruce Walters</h3>
+                             <p class="instructor-bio">
+                            Best « Friend Smile »
+                            <br />
+                            live performance 2019
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <img src="https://github.com/RELEBOHILE-PHEKO/alu-web-development/blob/master/html_advanced/avatar%20(4).jpg?raw=true" alt="Image 4">
+                            <h3>Henry Hughes</h3>
+                            <p class="instructor-bio">
+                                « 24hr smiles » Winner
+                                <br />
+                                2016-2019
+                            </p>
+
+                        </div>
+                    </td>
+                </tr>
+            </table>
         </div>
+    </section>
+
+
     </section>
 
     <!-- Quote Section -->
     <section>
         <div>
-            <img src="quote.png" alt="Quote Image">
+            <img src="https://github.com/RELEBOHILE-PHEKO/alu-web-development/blob/master/html_advanced/avatar%20(1).jpg?raw=true" alt="Quote Image">
             <div>
                 <blockquote>Those tutorials are concise and go straight to the point.I can't think of a better
                     place to learn smiling.It's fun!</blockquote>
@@ -69,117 +108,157 @@
 
     <!-- Videos Section -->
     <section>
-        <h2>Videos</h2>
-        <div>
-            <!-- Video Block 1 -->
-            <div>
-                <img src="video1.png" alt="Video 1">
-                <h3>Video 1</h3>
-                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-                <div>
-                    <img src="author1.png" alt="Author 1">
-                    <h4>Author 1</h4>
-                    <div>
-                        <img src="star.png" alt="Star 1">
-                        <img src="star.png" alt="Star 2">
-                        <img src="star.png" alt="Star 3">
-                        <img src="star.png" alt="Star 4">
-                        <img src="star.png" alt="Star 5">
-                    </div>
-                    <p>5.0</p>
-                </div>
-            </div>
-            <!-- Video Block 2 -->
-            <div>
-                <img src="video2.png" alt="Video 2">
-                <h3>Video 2</h3>
-                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-                <div>
-                    <img src="author2.png" alt="Author 2">
-                    <h4>Author 2</h4>
-                    <div>
-                        <img src="star.png" alt="Star 1">
-                        <img src="star.png" alt="Star 2">
-                        <img src="star.png" alt="Star 3">
-                        <img src="star.png" alt="Star 4">
-                        <img src="star.png" alt="Star 5">
-                    </div>
-                    <p>4/5</p>
-                </div>
-            </div>
-            <!-- Video Block 3 -->
-            <div>
-                <img src="video3.png" alt="Video 3">
-                <h3>Video 3</h3>
-                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-                <div>
-                    <img src="author3.png" alt="Author 3">
-                    <h4>Author 3</h4>
-                    <div>
-                        <img src="star.png" alt="Star 1">
-                        <img src="star.png" alt="Star 2">
-                        <img src="star.png" alt="Star 3">
-                        <img src="star.png" alt="Star 4">
-                        <img src="star.png" alt="Star 5">
-                    </div>
-                    <p>4.0</p>
-                </div>
-            </div>
-            <!-- Video Block 4 -->
-            <div>
-                <img src="video4.png" alt="Video 4">
-                <h3>Video 4</h3>
-                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-                <div>
-                    <img src="author4.png" alt="Author 4">
-                    <h4>Author 4</h4>
-                    <div>
-                        <img src="star.png" alt="Star 1">
-                        <img src="star.png" alt="Star 2">
-                        <img src="star.png" alt="Star 3">
-                        <img src="star.png" alt="Star 4">
-                        <img src="star.png" alt="Star 5">
-                    </div>
-                    <p>5.0</p>
-                </div>
+        <h2> <span class="black-text">Most </span>
+            <span class="purple-text">Popular</span>
+            <span class="black-text"> Tutorials</span></h2>
+        <div align="center">
+            <table cellpadding="10">
+                <tr>
+                    <td>
+                        <!-- Video Block 1 -->
+                        <div>
+                            <img src="https://github.com/RELEBOHILE-PHEKO/alu-web-development/blob/master/html_advanced/preview.jpg?raw=true" alt="Video 1">
+                            <h3>Diagonal Smile</h3>
+                            <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                            <div>
+                                <img src="https://github.com/RELEBOHILE-PHEKO/alu-web-development/blob/master/html_advanced/avatar%20(2).jpg?raw=true" alt="Author 1">
+                                <h4>Phillip Massey</h4>
+                                <div>
+                                    <img src="star.png" alt="Star 1">
+                                    <img src="star.png" alt="Star 2">
+                                    <img src="star.png" alt="Star 3">
+                                    <img src="star.png" alt="Star 4">
+                                    <img src="star.png" alt="Star 5">
+                                </div>
+                                <p>5.0</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <!-- Video Block 2 -->
+                        <div>
+                            <img src="https://github.com/RELEBOHILE-PHEKO/alu-web-development/blob/master/html_advanced/preview%20(1).jpg?raw=true" alt="Video 2">
+                            <h3>Sad Smile</h3>
+                            <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                            <div>
+                                <img src="https://github.com/RELEBOHILE-PHEKO/alu-web-development/blob/master/html_advanced/avatar%20(2).jpg?raw=true" alt="Author 2">
+                                <h4>Phillip Massey</h4>
+                                <div>
+                                    <img src="star.png" alt="Star 1">
+                                    <img src="star.png" alt="Star 2">
+                                    <img src="star.png" alt="Star 3">
+                                    <img src="star.png" alt="Star 4">
+                                    <img src="star.png" alt="Star 5">
+                                </div>
+                                <p>4/5</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <!-- Video Block 3 -->
+                        <div>
+                            <img src="https://github.com/RELEBOHILE-PHEKO/alu-web-development/blob/master/html_advanced/preview%20(2).jpg?raw=true" alt="Video 3">
+                            <h3>Natural Smile</h3>
+                            <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                            <div>
+                                <img src="https://github.com/RELEBOHILE-PHEKO/alu-web-development/blob/master/html_advanced/avatar%20(2).jpg?raw=true" alt="Author 3">
+                                <h4>Phillip Massey</h4>
+                                <div>
+                                    <img src="star.png" alt="Star 1">
+                                    <img src="star.png" alt="Star 2">
+                                    <img src="star.png" alt="Star 3">
+                                    <img src="star.png" alt="Star 4">
+                                    <img src="star.png" alt="Star 5">
+                                </div>
+                                <p>4.0</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <!-- Video Block 4 -->
+                        <div>
+                            <img src="https://github.com/RELEBOHILE-PHEKO/alu-web-development/blob/master/html_advanced/preview%20(3).jpg?raw=true" alt="Video 4">
+                            <h3>Happy Smile</h3>
+                            <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                            <div>
+                                <img src="https://github.com/RELEBOHILE-PHEKO/alu-web-development/blob/master/html_advanced/avatar%20(2).jpg?raw=true" alt="Author 4">
+                                <h4>Phillip Massey</h4>
+                                <div>
+                                    <img src="star.png" alt="Star 1">
+                                    <img src="star.png" alt="Star 2">
+                                    <img src="star.png" alt="Star 3">
+                                    <img src="star.png" alt="Star 4">
+                                    <img src="star.png" alt="Star 5">
+                                </div>
+                                <p>5.0</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
 
     </section>
 
     <!-- Membership Section -->
     <section>
-        <h2>Free membership</h2>
-        <div>
-            <div>
-                <img src="membership1.png" alt="Membership 1">
-                <h3>Lorem ipsum</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <img src="membership2.png" alt="Membership 2">
-            <h3>Dolor sit amet</h3>
-            <p>Dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        <div>
-            <img src="membership3.png" alt="Membership 3">
-            <h3>Consectetur adipiscing</h3>
-            <p>Consectetur adipiscing elit, sed do eiusmod tempor.</p>
-            <button>REGISTER FOR FREE</button>
-        </div>
-        <!-- Additional Membership Blocks -->
-        <div>
-            <img src="membership4.png" alt="Membership 4">
-            <h3>Sed do eiusmod</h3>
-            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <h2><span class="purple-text">Free</span>
+            <span class="white-text">membership</span></h2>
+        <div align="center">
+            <table cellpadding="10">
+                <tr>
+                    <td>
+                        <!-- Membership Block 1 -->
+                        <div>
+                            <img src="https://github.com/RELEBOHILE-PHEKO/alu-web-development/blob/master/css_Advanced/Screenshot%202024-05-25%20202931.png?raw=true" alt="Membership 1">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </td>
+                    <td>
+                        <!-- Membership Block 2 -->
+                        <div>
+                            <img src="https://github.com/RELEBOHILE-PHEKO/alu-web-development/blob/master/css_Advanced/Screenshot%202024-05-25%20202931.png?raw=true" alt="Membership 2">
+                            <h3>Dolor Sit Amet</h3>
+                            <p>Dolor sit amet, consectetur adipiscing elit.</p>
 
-        </div>
+                        </div>
+                    </td>
+                    <td>
+                        <!-- Membership Block 3 -->
+                        <div>
+                            <img src="https://github.com/RELEBOHILE-PHEKO/alu-web-development/blob/master/css_Advanced/Screenshot%202024-05-25%20202931.png?raw=true" alt="Membership 3">
+                            <h3>Consectetur Adipiscing</h3>
+                            <p>Consectetur adipiscing elit, sed do eiusmod tempor.</p>
 
+                        </div>
+
+                    </td>
+
+                    <td>
+                        <!-- Membership Block 4 -->
+                        <div>
+                            <img src="https://github.com/RELEBOHILE-PHEKO/alu-web-development/blob/master/css_Advanced/Screenshot%202024-05-25%20202931.png?raw=true" alt="Membership 4">
+                            <h3>Sed Do Eiusmod</h3>
+                            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
         </div>
+        <button>REGISTER FOR FREE</button>
     </section>
 
     <!-- FAQ Section -->
     <section>
-        <div>
-            <div>
-                <div>
+        <h1>F.A.Q.</h1>
+        <div align="center">
+            <table cellpadding="10">
+                <tr>
+                    <td>
+                        <div>
                     <h2>How does this work?</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -188,7 +267,10 @@
                         nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                         deserunt mollit anim id est laborum.</p>
                 </div>
-                <div>
+                    </td>
+                    <td>
+
+                    <div>
                     <h2>How does this work?</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -196,8 +278,10 @@
                         voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
                         non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
                 </div>
-            </div>
-            <div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                 <div>
                     <h2>How does this work?</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -206,6 +290,8 @@
                         voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
                         non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
+                    </td>
+                    <td>
                 <div>
                     <h2>How does this work?</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -214,7 +300,9 @@
                         voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
                         non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
-            </div>
+                    </td>
+                </tr>
+            </table>
         </div>
     </section>
 </main>
@@ -222,14 +310,14 @@
 <footer>
     <div class="global-block">
         <div class="row-block">
-            <img src="footer-image.png" alt="Footer Image">
+            <img src="https://github.com/RELEBOHILE-PHEKO/alu-web-development/blob/master/css_Advanced/Screenshot%202024-05-25%20202256.png?raw=true" alt="Footer Image">
             <div>
                 <nav>
                     <a href="#"><img src="images/social_facebook.jpg" alt="Facebook"></a>
                     <a href="#"><img src="images/social_twitter.jpg" alt="Twitter"></a>
                     <a href="#"><img src="images/social_instagram.jpg" alt="Instagram"></a>
                 </nav>
-                <p>&copy; Relebohile Pheko</p>
+                <p style="text-align: center;">&copy;Relebohile Pheko</p>
             </div>
         </div>
     </div>

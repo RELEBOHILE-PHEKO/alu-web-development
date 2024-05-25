@@ -1,0 +1,478 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://github.com/RELEBOHILE-PHEKO/alu-web-development/blob/master/css_Advanced/background.jpg?raw=true') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1103px;
+    margin: 0px auto;
+    align-items: center;
+    height: 21px;
+    color: white;
+    padding-top: 50px;
+}
+
+header a img {
+    width: 50px;
+}
+
+header div {
+    display: flex;
+    gap: 20px;
+}
+
+header div a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Banner Section Styles */
+main section:first-of-type {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+main section:first-of-type h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+main section:first-of-type p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+main section:first-of-type button {
+    background-color:#C271FF;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Person Blocks */
+main section:nth-of-type(1) > div:nth-of-type(2) > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+main section:nth-of-type(1) > div:nth-of-type(2) > div > div {
+    text-align: center;
+    width: 200px;
+}
+
+main section:nth-of-type(1) > div:nth-of-type(2) > div > div img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+main section:nth-of-type(1) > div:nth-of-type(2) > div > div h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+main section:nth-of-type(1) > div:nth-of-type(2) > div > div p {
+    font-size: 16px
+    font-style: italic;
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+
+}
+/* Styles for the text */
+.purple-text {
+    color:#C271FF;
+}
+
+.white-text {
+    color: white;
+}
+
+/* Styles for the picture descriptions */
+.picture-description {
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+/* Quote Section */
+section:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    width: 100%;
+    height: 392px;
+    top: 1093px;
+    left: -1px;
+    gap: 0px;
+    opacity: 0px;
+    background:#C271FF;
+
+}
+
+section:nth-of-type(2) > div {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+section:nth-of-type(2) img {
+    width: 160px;
+    height: 160px;
+    top: 1201px;
+    left: 259px;
+    gap: 0px;
+    opacity: 0px;
+    padding-left: 10px;
+
+}
+
+section:nth-of-type(2) blockquote {
+    margin: 0;
+    color: #fff;
+    text-align: left;
+    flex: 1;
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+section:nth-of-type(2) blockquote p {
+    margin: 10px 0 0 0;
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: left;
+
+}
+
+section:nth-of-type(2) blockquote p + p {
+    margin: 5px 0 0 0;
+    font-style: italic;
+    font-weight: normal;
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    text-align: left;
+
+}
+
+/* Videos Section */
+section:nth-of-type(3) {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    color: #000;
+}
+/* Styles for the text */
+.black-text {color:#000000;
+
+section:nth-of-type(3) h2 {
+    font-size: 36px;
+    color: purple;
+    margin-bottom: 20px;
+}
+
+section:nth-of-type(3) > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section:nth-of-type(3) div > div {
+    background: #f0f0f0;
+    border-radius: 10px;
+    text-align: left;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section:nth-of-type(3) div > div img {
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+
+section:nth-of-type(3) div > div img::after {
+    content: url('play-icon.png'); /* Replace 'play-icon.png' with the actual path to your play icon */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section:nth-of-type(3) div > div h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+section:nth-of-type(3) div > div p {
+    font-size: 14px;
+    color: #666;
+}
+
+section:nth-of-type(3) div > div .author-block {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+section:nth-of-type(3) div > div .author-block img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    opacity: 1; /* Ensure visibility */
+    position: static; /* Remove any unwanted positioning */
+    display: inline-block; /* Ensure it's displayed correctly */
+}
+}
+
+section:nth-of-type(3) div > div .author-block h4 {
+    font-size: 14px;
+    color: purple;
+    margin: 0;
+}
+
+section:nth-of-type(3) div > div .rating-block {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+section:nth-of-type(3) div > div .rating-block img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+section:nth-of-type(3) div > div .rating-block p {
+    font-size: 14px;
+    color: purple;
+    margin: 0 0 0 auto;
+}
+
+/* Membership Section */
+section:nth-of-type(4) {
+    background-color:#071629;
+    text-align: center;
+    padding: 50px 20px;
+    color: #f0f0f0;
+}
+
+section:nth-of-type(4) h2 {
+    font-size: 36px;
+    color: purple;
+    margin-bottom: 20px;
+}
+
+section:nth-of-type(4) > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section:nth-of-type(4) > div > div {
+    width: 200px;
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section:nth-of-type(4) > div > div img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    color: purple;
+}
+
+section:nth-of-type(4) > div > div h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: purple;
+    margin-bottom: 5px;
+}
+
+section:nth-of-type(4) > div > div p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+section:nth-of-type(4) button {
+    background-color: #C271FF;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* FAQ Section */
+section:nth-of-type(5) {
+    width: 100%;
+    background:#ffffff;
+    color:#07162980;
+    height: 707px;
+    top: 2678px;
+    left: 249px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: center;
+    padding: 50px 20px;
+}
+/* FAQ Title */
+section:nth-of-type(5) h1{
+    width: 136px;
+    height: 75px;
+    left: 407px;
+    color:#071629;
+    align-content: center;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Source Sans Pro";
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 75.42px;
+}
+
+/* FAQ Subtitles */
+section:nth-of-type(5) h2 {
+    width: 145px;
+    height: 20px;
+    color:#071629;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.11px;
+    text-align: left;
+}
+
+/* FAQ Question 1 and 3 */
+section:nth-of-type(5) > div > div:nth-of-type(1),
+section:nth-of-type(5) > div > div:nth-of-type(3) {
+    width: 350px;
+    height: 192px;
+    top: 50px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+/* FAQ Question 2 and 4 */
+section:nth-of-type(5) > div > div:nth-of-type(2),
+section:nth-of-type(5) > div > div:nth-of-type(4) {
+    width: 350px;
+    height: 242px;
+    top: 149px;
+    left: 570px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+
+
+/* Footer Section */
+footer {
+    background-color: #071629;
+    width: 1440px;
+    height: 249px;
+    top: 3469px;
+    gap: 0px;
+    opacity: 0px;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer .global-block {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .row-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+footer .row-block img {
+    width: 50px;
+}
+
+footer .row-block nav {
+    display: flex;
+    gap: 20px;
+}
+
+footer .row-block nav a img {
+    width: 30px;
+    height: 30px;
+}
+
+footer p {
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
